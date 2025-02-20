@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 自定义样式可以在这里添加 */
+@layer components {
+    /* 导航链接基础样式 */
+    .nav-link {
+        @apply px-4 py-2 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100/70 dark:hover:bg-gray-700/70 rounded-md text-base font-medium transition-all;
+    }
+
+    /* 导航链接激活状态 */
+    .nav-link-active {
+        @apply text-gray-900 dark:text-white bg-gray-100 dark:bg-gray-700;
+    }
+
+    /* 移动端菜单链接 */
+    .mobile-nav-link {
+        @apply block px-3 py-2.5 text-base font-medium text-gray-900 dark:text-white hover:bg-gray-50 dark:hover:bg-gray-700/50 rounded-md;
+    }
+
+    /* 下拉菜单项 */
+    .dropdown-item {
+        @apply flex items-center px-4 py-2.5 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700/50;
+    }
+
+    /* 图标基础样式 */
+    .icon {
+        @apply w-5 h-5 text-gray-400 dark:text-gray-500;
+    }
+}
+
+/* 动画类 */
+.menu-enter {
+    animation: slideIn 0.2s ease-out;
+}
+
+.menu-leave {
+    animation: slideOut 0.2s ease-in;
+}
+
+.fade-enter {
+    animation: fadeIn 0.2s ease-out;
+}
+
+.fade-leave {
+    animation: fadeOut 0.2s ease-in;
+} 
