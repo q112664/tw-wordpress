@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "acg-share",
   "version": "1.0.0",
   "description": "ACG Share website",
@@ -105,4 +106,43 @@
   "keywords": [],
   "author": "",
   "license": "ISC"
+=======
+  "name": "tw-wordpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/q112664/tw-wordpress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/q112664/tw-wordpress/issues"
+  },
+  "homepage": "https://github.com/q112664/tw-wordpress#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.7"
+  },
+  "dependencies": {
+    "browserslist": "^4.24.4",
+    "caniuse-lite": "^1.0.30001700",
+    "electron-to-chromium": "^1.5.102",
+    "escalade": "^3.2.0",
+    "fraction.js": "^4.3.7",
+    "nanoid": "^3.3.8",
+    "node-releases": "^2.0.19",
+    "normalize-range": "^0.1.2",
+    "picocolors": "^1.1.1",
+    "postcss-value-parser": "^4.2.0",
+    "source-map-js": "^1.2.1",
+    "update-browserslist-db": "^1.1.2"
+  }
+>>>>>>> 0dde51d4ae9e09bf239b463bf48fd3f326f21e54
 }
